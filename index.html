@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sportsDb</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <style>
+        body{
+            background-color: #05220b;
+        }
+        .team-badge{
+            background-color: #05220b;
+            padding: 0 150px;
+        }
+        .badge-img{
+            height: 100px;
+            width: 100px;
+            display: block;
+            margin: auto;
+            cursor: pointer;
+        }
+        .strTeam{
+            text-decoration: none;
+            color:#40b314;
+            transition: 0.5s;
+        }
+        .strTeam:hover{
+            color: #c6ca28;
+            text-decoration: none;
+            outline: none;
+        }
+        .extra-design{
+            background-color: rgb(231, 208, 208);
+        }
+        .team-image{
+            height: 150px;
+            width: 150px;
+        }
+        .jursy-img{
+            height: 300px;
+            width: 300px;
+        }
+       
+    </style>
+</head>
+<body>
+    
+    <h1 class="text-center text-warning py-4">Search Your Team</h1>
+    <div class="input-group mb-3 w-50 mx-auto">
+        <input id="input-field" type="text" class="form-control" placeholder="Search Your Team" aria-label="Recipient's username" aria-describedby="button-addon2">
+        <button onclick="searchTeam()" class="btn btn-outline-secondary" type="button" id="button-search">Search</button>
+      </div>
+
+      <section>    
+        <div id="" class="container">
+            <div id="team-details">
+                
+            </div>
+            <div id="team-badge" class="text-center">
+               
+            </div>
+        </div>      
+      </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
